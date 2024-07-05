@@ -4,6 +4,8 @@ import { eq } from "drizzle-orm";
 import { cache } from "react";
 import { courses, userProgress } from "./schema";
 
+// functions to interact with the database
+
 export const getUserProgress = cache(async () => {
   const { userId } = await auth();
 

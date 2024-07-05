@@ -23,7 +23,7 @@ const LearnPage = async () => {
           hearts={5}
           points={100}
           hasActiveSubscription={false}
-        />{" "}
+        />
       </StickyWapper>
       <FeedWrapper>
         <Header title="Spanish" />
